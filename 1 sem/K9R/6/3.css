@@ -1,0 +1,36 @@
+div{
+	display: inline-table;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
+.first{
+	float: left;
+	background: linear-gradient(to bottom, blue, red);
+	margin: 10px;
+}
+.second{
+	margin: 10px;
+	float: left;
+	background: repeating-linear-gradient(45deg, red 20px, blue 30px,  red 40px);
+}
+.third{
+	margin: 10px;
+	float: left;
+	background: radial-gradient(yellow, green);
+}
+.fourth{
+	margin: 10px;
+	float: left;
+	background: repeating-radial-gradient(green 30px, yellow 40px, green 50px);
+}
+.fifth{
+	margin: 10px;
+	float: left;
+	background: radial-gradient(yellow, green, transparent 85%), linear-gradient(to bottom, blue, purple);
+}
+.sixth{
+	margin: 10px;
+	float: left;
+	background: linear-gradient(to right, yellow, green, transparent 80%), linear-gradient(to bottom, black, white 65%, blue 80%, purple 90%);
+}

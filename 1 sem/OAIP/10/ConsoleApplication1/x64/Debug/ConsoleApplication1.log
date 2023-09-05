@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+E:\LABS\Beloded\10\ConsoleApplication1\ConsoleApplication1.cpp(6,18): warning C4101: m: неиспользованная локальная переменная
+E:\LABS\Beloded\10\ConsoleApplication1\ConsoleApplication1.cpp(6,9): warning C4101: B: неиспользованная локальная переменная
+E:\LABS\Beloded\10\ConsoleApplication1\ConsoleApplication1.cpp(6,21): warning C4101: q: неиспользованная локальная переменная
+E:\LABS\Beloded\10\ConsoleApplication1\ConsoleApplication1.cpp(6,31): warning C4101: maskB: неиспользованная локальная переменная
+  ConsoleApplication1.vcxproj -> E:\LABS\Beloded\10\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

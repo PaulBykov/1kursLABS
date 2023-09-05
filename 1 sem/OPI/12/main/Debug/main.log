@@ -1,0 +1,8 @@
+﻿  blackjack.cpp
+E:\LABS\OPI\12\main\blackjack.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
+  game_machine.cpp
+  main.cpp
+E:\LABS\OPI\12\main\blackjack.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
+  settings.cpp
+  Создание кода...
+  main.vcxproj -> E:\LABS\OPI\12\main\Debug\main.exe

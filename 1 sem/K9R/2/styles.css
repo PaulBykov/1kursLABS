@@ -1,0 +1,22 @@
+h1, h2, h3{
+    color: purple;
+    font: Monotype Corsiva;
+}
+.first{
+    color: red;
+    font: Times New Roman;
+    font-size: 18px;
+}
+.second{
+    color: yellow;
+    font: Times New Roman;
+    font-size: 20px;
+}
+.third{
+    color: green;
+    font: Times New Roman;
+    font-size: 22px;
+}
+table tbody{
+    color: red;
+}

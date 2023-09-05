@@ -1,0 +1,4 @@
+﻿  ConsoleApplication3.cpp
+E:\LABS\Beloded\5\ConsoleApplication3\ConsoleApplication3.cpp(65,19): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\5\ConsoleApplication3\ConsoleApplication3.cpp(10,30): warning C4101: x: неиспользованная локальная переменная
+  ConsoleApplication3.vcxproj -> E:\LABS\Beloded\5\ConsoleApplication2\x64\Debug\ConsoleApplication3.exe

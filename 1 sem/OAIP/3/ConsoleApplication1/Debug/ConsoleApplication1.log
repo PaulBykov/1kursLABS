@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+E:\LABS\Beloded\3\ConsoleApplication1\ConsoleApplication1.cpp(13,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+E:\LABS\Beloded\3\ConsoleApplication1\ConsoleApplication1.cpp(13,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+E:\LABS\Beloded\3\ConsoleApplication1\ConsoleApplication1.cpp(13,10): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+E:\LABS\Beloded\3\ConsoleApplication1\ConsoleApplication1.cpp(13,10): message : этот аргумент используется в качестве размера буфера
+  ConsoleApplication1.vcxproj -> E:\LABS\Beloded\3\ConsoleApplication1\Debug\ConsoleApplication1.exe

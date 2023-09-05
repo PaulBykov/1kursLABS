@@ -1,0 +1,39 @@
+CATALOG{
+background-color: yellow;
+width: 100%;
+}
+
+CD{
+display: block;
+margin-bottom: 30pt;
+margin-left: 0;
+}
+
+TITLE
+{
+color: #FF0000;
+font-size: 20pt;
+}
+
+ARTIST
+{
+color: #0000FF;
+font-size: 20pt;
+}
+
+COUNTRY,PRICE, DATA,COMPANY
+{
+display: block;
+color: hotpink;
+margin-left: 20pt;
+}
+VS{
+	font-size: 30px;
+	color: green;
+}
+
+info{
+	font-style: italic;
+	font-size: 24px;
+
+}

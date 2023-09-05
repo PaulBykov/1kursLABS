@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="2.xsl"?>
+<info>
+  <att>
+    <student>Максим</student>
+    <note>5</note>
+  </att>
+  <att>
+    <student>Павел</student>
+    <note>9</note>
+  </att>
+  <att>
+    <student>Арсений</student>
+    <note>8</note>
+  </att>
+  <att>
+    <student>Виктор</student>
+    <note>0</note>
+  </att>
+  <att>
+    <student>Максим</student>
+    <note>5</note>
+  </att>
+  <att>
+    <student>Влад</student>
+    <note>6</note>
+  </att>
+  <att>
+    <student>Стас</student>
+    <note>9</note>
+  </att>
+  <att>
+    <student>Могилев</student>
+    <note>3</note>
+  </att>
+  <att>
+    <student>Андрей</student>
+    <note>5</note>
+  </att>
+  <att>
+    <student>Самусевич</student>
+    <note>3</note>
+  </att>
+</info>

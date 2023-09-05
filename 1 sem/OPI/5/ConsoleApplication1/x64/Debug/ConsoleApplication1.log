@@ -1,0 +1,3 @@
+﻿  ConsoleApplication1.cpp
+E:\LABS\OPI\5\ConsoleApplication1\ConsoleApplication1.cpp(8,13): warning C4101: x1: неиспользованная локальная переменная
+  ConsoleApplication1.vcxproj -> E:\LABS\OPI\5\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

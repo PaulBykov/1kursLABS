@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <svg width="1500" height="900" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="Gradient1">
+        <stop class="stop1" offset="0%" stop-color="green"/>
+        <stop class="stop3" offset="100%" stop-color="orange"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="100" r="70" fill="blue"></circle>
+    <rect x="250" y="50" width="130" height="130" fill="red" stroke="black"><animate attributeName="stroke-width" from="0" to="10" dur="5"/></rect>
+    <ellipse cx="500" cy="100" rx="100" ry="50" fill="green" id="ellipse"><animate attributeName="fill" from="green" to="red" dur="5" begin="click"/></ellipse>
+    <polygon points="700,180 900,180 800,50" fill="yellow" stroke="black" stroke-width="7"><animate attributeName="fill" from="yellow" to="url(#Gradient1)" dur="3"/><animate attributeName="stroke" from="black" to="blue" dur="5" begin="mouseover"/></polygon>
+    <polyline points="100,250 400,250 300,350 800,350" style="fill:none;stroke:rgb(167, 44, 183);stroke-width:3"/>
+  </svg>
+</body>
+</html>

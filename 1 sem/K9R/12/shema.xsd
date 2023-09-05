@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="CATALOG">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="CD">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="TITLE" type="xs:string"/>
+                     <xs:element name="VS" type="xs:string"/>
+                     <xs:element name="ARTIST" type="xs:string"/>
+                     <xs:element name="COUNTRY" type="xs:string"/>
+                     <xs:element name="COMPANY" type="xs:string"/>
+                     <xs:element name="PRICE" type="xs:string"/>
+                     <xs:element name="DATA" type="xs:string"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<music>
+<head>
+  <nartist>Исполнитель</nartist>
+  <nsong>Песня</nsong>
+  <nyear>Год выхода</nyear>
+</head>
+<info>
+  <artist>Kiss</artist>
+  <song>The Trooper</song>
+  <year>1983</year>
+</info>
+<info>
+  <artist>Red Hot Chili Peppers</artist>
+  <song>I Was Made For Lovin&apos; You</song>
+  <year>1979</year>
+</info>
+<info>
+  <artist>Iron Maiden  </artist>
+  <song>Baby Appeal</song>
+  <year>1984</year>
+</info>
+</music>

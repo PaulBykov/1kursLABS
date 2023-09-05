@@ -1,0 +1,10 @@
+﻿  ConsoleApplication5.cpp
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(7,9): warning C4101: maskA: неиспользованная локальная переменная
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(39,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(40,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(58,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(59,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(76,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(77,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\ConsoleApplication5\ConsoleApplication5.cpp(71,18): warning C4101: num: неиспользованная локальная переменная
+  ConsoleApplication5.vcxproj -> E:\LABS\Beloded\10\ConsoleApplication5\Debug\ConsoleApplication5.exe

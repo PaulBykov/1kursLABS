@@ -1,0 +1,6 @@
+﻿  ConsoleApplication2.cpp
+E:\LABS\Beloded\7\ConsoleApplication2\ConsoleApplication2.cpp(24,17): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
+E:\LABS\Beloded\7\ConsoleApplication2\ConsoleApplication2.cpp(24,27): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
+E:\LABS\Beloded\7\ConsoleApplication2\ConsoleApplication2.cpp(42,12): warning C4101: q: неиспользованная локальная переменная
+E:\LABS\Beloded\7\ConsoleApplication2\ConsoleApplication2.cpp(14,12): warning C4101: g: неиспользованная локальная переменная
+  ConsoleApplication2.vcxproj -> E:\LABS\Beloded\7\ConsoleApplication1\x64\Debug\ConsoleApplication2.exe

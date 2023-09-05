@@ -1,0 +1,54 @@
+    // Вар 1
+
+    double m, n, p;
+    cin >> m >> n >> p;
+    int i = 0;
+    if (m < 0) {
+        i++;
+    }
+    if (n < 0) {
+        i++;
+    }
+    if (p < 0) {
+        i++;
+    }
+    cout << "Кол-во отрицательных " << i << endl;
+
+
+
+    // Вар 4
+    double num;
+    cin >> num;
+    if (num == 12 || num < 3) {
+        cout << "Зима" << endl;
+    }
+    else if (num > 2 && num < 6) {
+        cout << "Весна" << endl;
+    }
+    else if (num > 5 && num < 9) {
+        cout << "Лето" << endl;
+    }
+    else if (num > 9) {
+        cout << "Осень" << endl;
+    }
+
+
+    
+    // Вар 5
+    int a1, b1, c1, d1;
+    cin >> a1 >> b1 >> c1 >> d1; bool z = true;
+    if (a1 % 2 == 0) {
+        if (b1 % 2 == 0) {
+            if (c1 % 2 == 0) {
+                if (d1 % 2 == 0) {
+                    z = false;
+                }
+            }
+        }
+    }
+    if (z == true) {
+        cout << "Есть";
+    }
+    else {
+        cout << "Нет";
+    }

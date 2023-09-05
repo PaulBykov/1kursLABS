@@ -1,0 +1,3 @@
+﻿  4_2.cpp
+E:\LABS\Beloded\10\4_2\4_2.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  4_2.vcxproj -> E:\LABS\Beloded\10\ConsoleApplication6\Debug\4_2.exe

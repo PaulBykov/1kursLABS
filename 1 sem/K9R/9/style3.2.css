@@ -1,0 +1,32 @@
+body{
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40pt;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1.5em 9em 1.5em;
+  grid-template-columns: 1fr 2fr 5fr;
+  grid-gap: 0.4em;
+  grid-template-areas: "header header header" "nav article aside" "footer footer footer";
+}
+.grid{
+  background-color: gray;
+}
+header{
+  grid-area: header;
+}
+nav{
+  
+  grid-area: nav;
+}
+article{
+  grid-area: article;
+  font-size: 30px;
+}
+aside{
+  grid-area: aside;
+}
+footer{
+  grid-area: footer;
+  font-size: 35px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v22</title>
+    <style>
+        
+        .div-menu {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .menu {
+            width: 182px;
+            height: 30px;
+            
+        }
+        p {
+            display: inline-block;
+            width: 182px;
+            height: 30px;
+            background-color: antiquewhite;
+            margin: 0px;
+            font-family: Arial;
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            margin: 0;
+            width: 180px;
+            height: auto;
+            padding: 0;
+            border: 2px solid black;
+            z-index: 1; 
+            background-color: aqua;
+        }
+        .menu-content li {
+            width: auto;
+            text-decoration: none;
+            margin: 4px;
+            display: block;
+            font-family: Arial;
+        }
+
+       
+        .menu:hover .menu-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-menu">
+        <p>Испанская партия</p>
+    </div>
+    <div class="div-menu menu">
+        <p>Сицилианская защита</p>
+        <ul class="menu-content">
+            <li> Вариант Дракона </li>
+            <li> Закрытый вариант </li>
+            <li> Защита Птеродактеля</li>
+        </ul>
+    </div>
+    <div class="div-menu">
+        <p>Немецкая партия</p>
+    </div>
+</body>
+</html>

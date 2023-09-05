@@ -1,0 +1,25 @@
+.letter {
+            color: blue;
+            font-size: 150%;
+        	}
+ul li {
+    list-style: none;
+    background-image: url(2.png);
+    background: url(2.png) no-repeat 0 4px;
+    padding-left: 24px;
+   }
+body{
+    background: transparent url(fit.jpg) no-repeat right top;
+    background-attachment: fixed;
+} 
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+img{
+    float: left;
+    padding-right: 30px;
+}
+img[src="pos.jpg"]{
+    float: right;
+}

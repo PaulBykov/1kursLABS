@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: linear-gradient(to right, gray, white);
+  .logo{
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+    img{
+      width: 200px;
+    }
+  }
+  .navmenu{
+    float: right;
+    display: inline-block;
+    margin-right: 200px;
+    div{
+      display: inline-block;
+      margin: 30px 50px 30px 50px;
+      a{
+        color: $hrcolor;
+        @extend %hrfont;
+        &:link{
+          color: $hrcolor;
+        }
+        &:visited{
+          color: $hrcolor;
+        }
+        &:active{
+          color: $hrcolor;
+        }
+      }
+    }
+  }
+}
+main{
+  display: inline-block;
+  width: 65%;
+  margin-left: 50px;
+  .zagmain1{
+    width: 100%;
+    text-align: center;
+    @extend %hrfont;
+  }
+  .txtmain{
+    display: inline-block;
+    width: 30%;
+    height: 25em;
+    text-align: center;
+    vertical-align: top;
+    font-size: zagfont();
+    color: $hrcolor;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+  }
+  .zagmain2{
+    width: 100%;
+    text-align: center;
+    @extend %hrfont;
+  }
+  .imgmain{
+    display: inline-block;
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    img{
+      width: 10em;
+    }
+  }
+}
+article{
+  @include aside;
+  form{
+    @extend %form;
+    label{
+      @extend %input;
+    }
+  }
+  .zagaside{
+    @extend %hrfont;
+    text-align: center;
+  }
+  .textaside{
+    display: inline-block;
+    width: 17em;
+    text-align: center;
+    font-size: zagfont();
+    transform: translateY(-1em);
+  }
+}
+footer{
+  @include footer;
+}

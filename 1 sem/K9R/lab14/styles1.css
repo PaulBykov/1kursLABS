@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6{
+    color: purple;
+    font-family: "Monotype Corsiva";
+}
+.subparagraph1{
+    font-size: 18pt;
+    color: red;
+    font-family: "Times New Roman";
+}
+.subparagraph2{
+    color: yelow;
+    font-family: "Times New Roman";
+    font-size: 20pt;
+}
+.subparagraph3{
+    color:green;
+    font-family: "Times New Roman";
+    font-size: 22pt;
+}
+table td{
+    color:blueviolet;
+}

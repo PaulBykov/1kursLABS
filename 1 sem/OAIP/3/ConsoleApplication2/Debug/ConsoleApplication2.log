@@ -1,0 +1,5 @@
+﻿  ConsoleApplication2.cpp
+E:\LABS\Beloded\3\ConsoleApplication2\ConsoleApplication2.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+E:\LABS\Beloded\3\ConsoleApplication2\ConsoleApplication2.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+E:\LABS\Beloded\3\ConsoleApplication2\ConsoleApplication2.cpp(16,12): warning C4101: s: неиспользованная локальная переменная
+  ConsoleApplication2.vcxproj -> E:\LABS\Beloded\3\ConsoleApplication1\Debug\ConsoleApplication2.exe

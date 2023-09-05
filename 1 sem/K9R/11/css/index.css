@@ -1,0 +1,108 @@
+article .zagaside, main .zagmain2, main .zagmain1, header .navmenu div a {
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article form label {
+  display: inline-block;
+  width: 10em;
+}
+
+article form {
+  height: 10em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to right, gray, white);
+}
+header .logo {
+  display: inline-block;
+  width: 200px;
+  margin-left: 50px;
+}
+header .logo img {
+  width: 200px;
+}
+header .navmenu {
+  float: right;
+  display: inline-block;
+  margin-right: 200px;
+}
+header .navmenu div {
+  display: inline-block;
+  margin: 30px 50px 30px 50px;
+}
+header .navmenu div a {
+  color: rgb(198, 131, 7);
+}
+header .navmenu div a:link {
+  color: rgb(198, 131, 7);
+}
+header .navmenu div a:visited {
+  color: rgb(198, 131, 7);
+}
+header .navmenu div a:active {
+  color: rgb(198, 131, 7);
+}
+
+main {
+  display: inline-block;
+  width: 65%;
+  margin-left: 50px;
+}
+main .zagmain1 {
+  width: 100%;
+  text-align: center;
+}
+main .txtmain {
+  display: inline-block;
+  width: 30%;
+  height: 25em;
+  text-align: center;
+  vertical-align: top;
+  font-size: 13.3333333333pt;
+  color: rgb(198, 131, 7);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+main .zagmain2 {
+  width: 100%;
+  text-align: center;
+}
+main .imgmain {
+  display: inline-block;
+  width: 20%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main .imgmain img {
+  width: 10em;
+}
+
+article {
+  display: inline-block;
+  transform: translateY(-10em);
+  width: 30%;
+}
+article .zagaside {
+  text-align: center;
+}
+article .textaside {
+  display: inline-block;
+  width: 17em;
+  text-align: center;
+  font-size: 13.3333333333pt;
+  transform: translateY(-1em);
+}
+
+footer {
+  background-color: gray;
+  text-align: center;
+  font-size: 25pt;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,67 @@
+p{
+	margin-top: 0px;
+	padding: 0px;
+}
+span{
+	background-color: #FFA500;
+	margin: 5px;
+}
+.text1{
+	width: 400px;
+	border: 5px outset #FF7F50;
+}
+.text2{
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px 8px  rgba(0,0,0,.5);
+	border: 5px outset #FF0000;
+	overflow: auto;
+}
+.text3{
+	border: 5px outset #FF6347;
+}
+div{
+	margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+.lett{
+	text-align: center;
+	margin-bottom: 0px;
+}
+.first{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px outset red;
+}
+.second{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px dashed lightgreen;
+}
+.third{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px dotted blue;
+}
+.fourth{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px double aquamarine;
+}
+.fifth{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px solid magenta;
+}
+.sixth{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px inset yellow;
+}
+.seventh{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	border: 8px outset black;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <style>
+        .menu-btn {
+            width: 180px;
+            background-color: yellow;
+            color: black;
+            padding: 16px;
+            font-size: 16px;
+            border: 1px solid black;
+        }
+
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-content {
+            display: none;
+            position: absolute;
+            width: 140px;
+            background-color: rgb(255, 160, 122);
+            border-style: none dashed dashed dashed;
+            border: 0px 2px 2px 2px;
+            border-color: none black black black;
+            z-index: 1; 
+        }
+
+        .menu-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            border-top: 3px dashed black;
+            display: block;
+        }
+
+        .menu:hover .menu-content {
+            display: block;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <button class="menu-btn">Меню</button>
+        <div class="menu-content">
+            <a href="../5/Форма.html">Форма</a>
+            <a href="../5/Шахматная доска.html">Шахматная доска</a>
+            <a href="../6/3.html">Фотогалерея</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

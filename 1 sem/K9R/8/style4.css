@@ -1,0 +1,77 @@
+nav>ul>li{
+  position: relative;
+}
+nav ul{
+  position: absolute;
+}
+li ul{
+  display: none;
+}
+li:hover ul{
+  display: block;
+}
+.menu{
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  padding-top: .7em;
+  width: 10em;
+  height: 2em;
+  background-color: rgb(42, 177, 210);
+}
+li{
+  list-style-type: none;
+}
+.menu>ul{
+  margin-top: .9em;
+  transform: translateX(-2.57em) translateY(-12px);
+}
+.menu li{
+  text-align: center;
+  border: 1px solid;
+  padding-top: .7em;
+  border-style: solid;
+  width: 10em;
+  height: 2.5em;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  width: 9em;
+  height: 1.87em;
+  transform: translateY(-0.4em);
+}
+span{
+  display: inline-block;
+  transform: translateY(1.4em);
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:active{
+  color: black;
+}
+a{
+  background: url(facultet.png) no-repeat 0 0;
+}
+.nenad{
+  background: none no-repeat 0 0;
+}
+.bgtu:hover{
+  background: url(facultet.png) no-repeat 0 0;
+}
+.it:hover{
+  background: url(facultet.png) no-repeat 0 0;
+  background-position: 0 -30px;
+}
+.pim:hover{
+  background: url(facultet.png) no-repeat 0 0;
+  background-position: 0 -90px;
+}
+.htit:hover{
+  background: url(facultet.png) no-repeat 0 0;
+  background-position: 0 -60px;
+}

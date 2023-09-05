@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Заказ</title>
+  <script>
+    function f(){
+      let form = document.forms[0];
+      let dop = document.getElementsByName('check');
+      let spisok = "<ul>"
+      for(let i = 0; i < dop.length; i++){
+        if(dop[i].checked){
+          spisok += "<li>" + dop[i].value + "</li>"
+        }
+      }
+      spisok += "</ul>";
+      document.getElementById('last1').innerHTML = "Имя: " + form.fname.value + ", Фамилия: " + form.lname.value + ", Колиство товара: " + form.radio.value + ", Цвет: " + form.select.value;
+      document.getElementById('last2').innerHTML = "Дополнительно: " + spisok;
+    }
+      </script>
+</head>
+<body>
+  <form>
+    <input type="text" name="fname" placeholder="Имя"/>
+    <input type="text" name="lname" placeholder="Фамилия"/>
+    <p>Количество товара:</p>
+    <input type="radio" name="radio" id="r1" value="1">
+    <label for="r1">1кг</label>
+    <input type="radio" name="radio" id="r2" value="2">
+    <label for="r2">2кг</label>
+    <input type="radio" name="radio" id="r3" value="3">
+    <label for="r3">3кг </label>
+    <p>Цвет:</p>
+    <select name="select" id="">
+      <option value="зелёный">Белый</option>
+      <option value="чёрный">Голубой</option>
+      <option value="белый">Зеленый</option>
+    </select>
+    <p>Дополнительно:</p>
+    <input type="checkbox" value="Подарочная упаковка" name="check" id="check1"/>
+    <label for="check1">Подарочная упаковка</label>
+    <input type="checkbox" value="Ускоренная доставка" name="check" id="check2"/>
+    <label for="check2">Срочная доставка</label>
+    <input type="checkbox" value="Оплата курьеру" name="check" id="check3"/>
+    <label for="check3">Дополнительные составляющие</label><br>
+    <input type="button" id="button" value="Вывести информацию" onclick="f()"/>
+  </form>
+  <p id="last1"></p>
+  <p id="last2"></p>
+</body>
+</html>

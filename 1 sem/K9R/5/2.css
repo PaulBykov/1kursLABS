@@ -1,0 +1,36 @@
+
+big{
+	size: 1.2em;
+}
+table.iksweb td{
+	border: 2px solid #595959;
+	text-align: center;
+	width: 70px;
+	height: 30px;
+}
+tr.first{
+	height: 40px;
+}
+table{
+	padding-top: 10px;
+	border-spacing: 0px;
+}	
+.hide{
+	visibility: hidden;
+}
+.first{
+	background-color: darkblue;
+	color: white;
+}
+.light_bl{
+	background-color: #00BFF0;
+	color: white;
+}
+.third{
+	background-color: purple;
+	color: white;
+}
+.fourd{
+	background-color: green;
+	color: white;
+}

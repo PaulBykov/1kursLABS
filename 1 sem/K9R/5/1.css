@@ -1,0 +1,14 @@
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 2px solid black;
+}
+.first{
+	background-color: red;
+}
+.first_td{
+	background-color: yellow;
+}
+.prtt{
+	border: 0px;
+	height: 20px;
+	border-bottom: 2px;
+}

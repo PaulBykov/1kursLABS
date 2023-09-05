@@ -1,0 +1,4 @@
+﻿  dop_1.cpp
+E:\LABS\Beloded\12\dop_1\dop_1.cpp(14,32): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\LABS\Beloded\12\dop_1\dop_1.cpp(21,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  dop_1.vcxproj -> E:\LABS\Beloded\12\2\x64\Debug\dop_1.exe

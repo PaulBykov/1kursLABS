@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<!DOCTYPE CATALOG [
+<!ELEMENT CD (TITLE,VS,ARTIST,COUNTRY, COMPANY, PRICE, DATA)>
+<!ENTITY TITLE "Магнус Ка́рлсен">
+<!ENTITY VS "VS">
+<!ENTITY ARTIST "Ян Непомнящий">
+<!ELEMENT COMPANY (#PCDATA)>
+<!ELEMENT PRICE (#PCDATA)>
+<!ELEMENT COUNTRY (#PCDATA)>
+<!ELEMENT DATA (#PCDATA)>
+]>
+
+
+	<CATALOG>
+	   <CD>
+	      <TITLE> &TITLE; </TITLE>
+	      <VS> &VS; </VS>
+	      <ARTIST> &ARTIST; </ARTIST>
+	      <COUNTRY>USA</COUNTRY>
+	      <COMPANY>Chess.com</COMPANY>
+	      <PRICE>150000$</PRICE>
+	      <DATA>22.12.2022</DATA>
+	   </CD>
+	   <info>
+	   	Ян Алекса́ндрович Непо́мнящий — российский шахматист, гроссмейстер. Вице-чемпион Мира. Чемпион Европы 2010 года.
+	   	Свен Ма́гнус Э́эн Ка́рлсен — норвежский шахматист, 16-й чемпион мира по шахматам. Чемпион мира по шахматам в трёх категориях: с 2013 года — чемпион мира по классическим шахматам; в 2014—2016, 2019 годах — чемпион мира по рапиду; в 2014—2015, 2017—2019 годах — чемпион мира по блицу.
+	   </info>
+	</CATALOG>

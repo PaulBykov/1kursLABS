@@ -1,0 +1,367 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(8, 0.3fr);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 650px;
+    height: 40px;
+    background-color: yellow;
+    margin: auto;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+}
+.container a {
+    height: 39px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid green;
+    color: green;
+}
+.block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    align-items: center;
+    justify-items: center;
+}
+
+.img1:hover {
+    transform: scale(0.5) ;
+}
+
+
+.img2:hover {
+    transform: rotate(45deg);
+}
+
+.img3:hover {
+    transform: translate(50px, 0px); 
+}
+.img4:hover {
+    transform: rotate(-20deg);
+}
+
+img{
+    display: inline-block;
+    margin: 12px;
+    width: 300px;
+    height: 160px;
+}
+
+img::not(class="z5"){
+    padding-left: 15px;
+}
+
+.img1-2{
+    transform: perspective(9cm) rotateX(45deg);
+}
+
+.img2-2{
+    transform: perspective(9cm) rotateY(45deg);
+}
+
+.img3-2{
+    transform: perspective(9cm) rotateX(45deg);
+}
+
+.img4-2{
+    transform: perspective(9cm) rotateY(-45deg);
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    border: 5px double;
+    border-color: orange yellow;
+}
+.btn3:hover {
+    border: 5px solid;
+    border-color: green white green white;
+}
+
+.btn4:hover {
+    border: 5px solid;
+    border-color: white blue white blue;
+}
+
+.btn5:hover {
+    background-image: radial-gradient(circle at 50% 50%, pink 10%, violet 5%, transparent),
+        radial-gradient(circle at 50% 50%, purple, rgb(150, 227, 253));
+}
+
+.img-anim {
+    display: inline;
+    position: absolute;
+}
+
+.anim1 {
+    left: 10px;
+    animation: anim1 8s linear infinite;
+}
+
+.anim2 {
+    left: 20px;
+    animation: anim2 8s linear infinite;
+}
+
+.anim3 {
+    left: 30px;
+    animation: anim3 8s linear infinite;
+}
+
+.anim4 {
+    left: 40px;
+    animation: anim4 8s linear infinite;
+}
+
+@keyframes anim1 {
+
+    0% {
+        transform: perspective(9cm) rotateY(45deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+    }
+
+    100% {
+        position: absolute;
+
+    }
+}
+
+@keyframes anim2 {
+
+    0% {
+        transform: perspective(9cm) rotateY(45deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+    }
+
+    100% {
+        position: absolute;
+        left: 350px;
+        filter: blur(10px);
+    }
+}
+
+@keyframes anim3 {
+
+    0% {
+        transform: perspective(9cm) rotateY(45deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+    }
+
+    100% {
+        position: absolute;
+        left: 700px;
+        filter: grayscale(1);
+    }
+}
+
+@keyframes anim4 {
+
+    0% {
+        transform: perspective(9cm) rotateY(45deg);
+    }
+
+    50% {
+        transform: perspective(9cm) rotateY(0deg);
+    }
+
+    100% {
+        position: absolute;
+        left: 1050px;
+        filter: invert(1);
+    }
+}
+
+/* Задание 5  ---------------------------------------------------------*/
+.img-z5 {
+    width: 280px;
+    height: 160px;
+    border: 5px solid rgb(255, 157, 0);
+    position: absolute;
+}
+.img1-z5{
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 6.0s;
+    animation-timing-function: ease-in-out;
+}
+.img2-z5{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 4.6s;
+    animation-timing-function: ease-in-out;
+}
+.img3-z5{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 3.4s;
+    animation-timing-function: ease-in-out;
+}
+.img4-z5{
+    animation: anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-delay: 2.2s;
+    animation-timing-function: ease-in-out;
+}
+.img5-z5{
+    animation: anime 1.0s;
+    animation-fill-mode: both;
+
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anime{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/* Задание 6  ---------------------------------------------------------*/
+.img-z6 {
+    display: block;
+    margin: 4px;
+    position: relative;
+}
+
+.img1-z6 {
+    animation: z6-anim1 2s linear infinite;
+}
+
+@keyframes z6-anim1 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 200px;
+    }
+}
+
+.img2-z6 {
+    animation: z6-anim2 2s linear infinite;
+}
+
+@keyframes z6-anim2 {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 200px;
+        transform: skew(15deg);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.img3-z6 {
+    animation: z6-anim3 2s linear infinite;
+}
+
+@keyframes z6-anim3 {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+
+    25% {
+        left: 1200px;
+        opacity: 1;
+    }
+
+    50% {
+        left: 1200px;
+        opacity: 0;
+    }
+
+    75% {
+        left: 0;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+.img4-z6 {
+    animation: z6-anim4 2s linear infinite;
+}
+
+@keyframes z6-anim4 {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+.img5-z6 {
+    animation: z6-anim5 2s linear infinite;
+}
+
+@keyframes z6-anim5 {
+    0% {
+        top: 0px;
+        left: 10px;
+    }
+    25% {
+        top: 0px;
+        left: 300px;
+    }
+    75% {
+        top: 400px;
+        left: 300px;
+    }
+    100% {
+        top: 400px;
+        left: 10px;
+    }
+}
+/* Задание 7  ---------------------------------------------------------*/
+.z7 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: aqua;
+    font-size: 36pt;
+    animation: anim-color 5s linear infinite;
+}
+@keyframes anim-color {
+    0% {
+        color: aqua;
+    }
+    100% {
+        color: blue ;
+    }
+}
+/* Задание 8  ---------------------------------------------------------*/

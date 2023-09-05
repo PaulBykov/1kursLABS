@@ -1,0 +1,5 @@
+﻿  9_2.cpp
+E:\LABS\Beloded\10\9_2\9_2.cpp(17,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\9_2\9_2.cpp(18,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\LABS\Beloded\10\9_2\9_2.cpp(10,19): warning C4101: num: неиспользованная локальная переменная
+  9_2.vcxproj -> E:\LABS\Beloded\10\ConsoleApplication6\Debug\9_2.exe

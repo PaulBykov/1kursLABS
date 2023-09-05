@@ -1,0 +1,15 @@
+tr td{
+	border: 2px solid green;
+	padding: 10px;
+	margin: 10px;
+
+}
+table{
+	border-collapse: collapse;
+	background-color: yellow;
+	color: green;
+}
+a{
+	text-decoration: none;
+	color: green;
+}
