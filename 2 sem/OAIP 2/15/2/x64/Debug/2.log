@@ -1,0 +1,4 @@
+﻿  2.cpp
+D:\LABS\OAIP 2\15\2\2.cpp(98,31): warning C4101: endtTime: неиспользованная локальная переменная
+D:\LABS\OAIP 2\15\2\2.cpp(98,20): warning C4101: startTime: неиспользованная локальная переменная
+  2.vcxproj -> D:\LABS\OAIP 2\15\2\x64\Debug\2.exe

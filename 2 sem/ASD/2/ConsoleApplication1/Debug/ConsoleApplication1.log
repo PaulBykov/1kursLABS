@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+D:\LABS\ASD\2\ConsoleApplication1\ConsoleApplication1.cpp(18,17): warning C4244: =: преобразование "double" в "unsigned __int64", возможна потеря данных
+D:\LABS\ASD\2\ConsoleApplication1\ConsoleApplication1.cpp(34,17): warning C4244: =: преобразование "double" в "unsigned __int64", возможна потеря данных
+  ConsoleApplication1.vcxproj -> D:\LABS\ASD\2\ConsoleApplication1\Debug\ConsoleApplication1.exe

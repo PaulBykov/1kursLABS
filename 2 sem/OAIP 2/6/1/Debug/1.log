@@ -1,0 +1,4 @@
+﻿  1.cpp
+D:\LABS\OAIP 2\6\1\1.cpp(130,9): warning C4101: buff: неиспользованная локальная переменная
+D:\LABS\OAIP 2\6\1\1.cpp(158,23): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  1.vcxproj -> D:\LABS\OAIP 2\6\2\Debug\1.exe

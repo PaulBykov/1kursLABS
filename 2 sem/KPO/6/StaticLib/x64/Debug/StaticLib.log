@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  StaticLib.cpp
+D:\LABS\KPO\6\StaticLib\StaticLib.cpp(82): warning C4715: Dictionary::GetEntry: значение возвращается не при всех путях выполнения
+  StaticLib.vcxproj -> D:\LABS\KPO\6\main\x64\Debug\StaticLib.lib

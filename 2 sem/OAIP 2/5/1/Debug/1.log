@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  1.cpp
+D:\LABS\OAIP 2\5\1\1.cpp(100,28): warning C4101: let: неиспользованная локальная переменная
+  1.vcxproj -> D:\LABS\OAIP 2\5\1\Debug\3_1.exe

@@ -1,0 +1,4 @@
+﻿  1.cpp
+D:\LABS\KPO\2\1\1.cpp(63,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\LABS\KPO\2\1\1.cpp(63,22): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  1.vcxproj -> D:\LABS\KPO\2\1\Debug\1.exe

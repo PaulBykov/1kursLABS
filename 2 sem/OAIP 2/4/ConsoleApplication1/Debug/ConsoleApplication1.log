@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+D:\LABS\OAIP 2\4\ConsoleApplication1\ConsoleApplication1.cpp(179,16): warning C4477: "fscanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "char (*)[9]"
+D:\LABS\OAIP 2\4\ConsoleApplication1\ConsoleApplication1.cpp(179,16): message : рекомендуется использовать "%hhd" в строке форматирования
+D:\LABS\OAIP 2\4\ConsoleApplication1\ConsoleApplication1.cpp(180,16): warning C4477: "fscanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "char (*)[9]"
+D:\LABS\OAIP 2\4\ConsoleApplication1\ConsoleApplication1.cpp(180,16): message : рекомендуется использовать "%hhd" в строке форматирования
+  ConsoleApplication1.vcxproj -> D:\LABS\OAIP 2\4\ConsoleApplication1\Debug\ConsoleApplication1.exe

@@ -1,0 +1,5 @@
+﻿  1.cpp
+  Num.cpp
+  Создание кода...
+D:\LABS\KPO\3\1\Num.cpp(43): warning C4715: NameOfMonth: значение возвращается не при всех путях выполнения
+  1.vcxproj -> D:\LABS\KPO\3\1\Debug\1.exe

@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (dop2.vcxproj, test2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  dop3.cpp
+D:\LABS\OAIP 2\8\test2\dop3.cpp(46,27): warning C4018: <: несоответствие типов со знаком и без знака
+  test2.vcxproj -> D:\LABS\OAIP 2\8\2\Debug\dop3.exe

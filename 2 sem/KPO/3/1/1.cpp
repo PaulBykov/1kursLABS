@@ -1,0 +1,62 @@
+﻿#include "stdafx.h"
+#include "Num.cpp"
+
+using namespace std;
+
+int main()
+{
+    char date[9];
+    setlocale(LC_ALL, "Rus");
+    cout << "1 - информация по дате" << endl;
+    cout << "2 - название месяца" << endl;
+    cout << "3 - информация по номеру дня" << endl;
+
+    int choice = 0;
+    cin >> choice;
+    if (choice == 2) {
+        cout << "Введите номер месяца или 0 - для выхода" << endl;
+        cin >> choice;
+        if (choice < 13 && choice > 0) {
+            cout << "Месяц с таким номером это " << NameOfMonth(choice) << endl;
+        }
+        else {
+            cout << "Введена не валидная дата!" << endl;
+        }
+    }
+    else if (choice == 3) {
+        cout << "Введите номер дня в году" << endl;
+        cin >> choice;
+        DateByNum(choice);
+    }
+    else {
+        cout << "Введите дату в формате ДДММГГГГ" << endl;
+        cin >> date;
+        int day = (date[0] - '0') * 10 + (date[1] - '0');
+        int month = (date[2] - '0') * 10 + (date[3] - '0');
+        int year = (date[4] - '0') * 1000 + (date[5] - '0') * 100 + (date[6] - '0') * 10 + (date[7] - '0');
+
+        if (day > 31 || month > 12 || day < 1 || month < 1) {
+            cout << "Введены некоректные данные";
+            return 0;
+        }
+        if (isLeap(year)) {
+            cout << "Данный год високосный" << endl;
+        }
+        else {
+            cout << "Данный год не високосный" << endl;
+        }
+        cout << "Порядковый номер дня в году = " << DayNum(day, month, isLeap(year)) << endl;
+
+        int DaysUntil;
+
+        if (121 - DayNum(day, month, isLeap(year)) >= 0) {
+            DaysUntil = 121 - DayNum(day, month, isLeap(year));
+        }
+        else {
+            DaysUntil = 365 - DayNum(day, month, isLeap(year)) + 121;
+        }
+        cout << "Дней до ближайшего дня рождения: " << DaysUntil << endl;
+    }
+
+    return 0;
+}

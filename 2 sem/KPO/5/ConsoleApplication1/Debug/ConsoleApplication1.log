@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+  Dictionary.cpp
+D:\LABS\KPO\5\ConsoleApplication1\Dictionary.cpp(71,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+D:\LABS\KPO\5\ConsoleApplication1\Dictionary.cpp(76): warning C4715: Dictionary::GetEntry: значение возвращается не при всех путях выполнения
+  ConsoleApplication1.vcxproj -> D:\LABS\KPO\5\ConsoleApplication1\Debug\ConsoleApplication1.exe

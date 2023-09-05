@@ -1,0 +1,4 @@
+﻿  dop.cpp
+D:\LABS\OAIP 2\3\dop\dop.cpp(165,29): warning C4018: <: несоответствие типов со знаком и без знака
+D:\LABS\OAIP 2\3\dop\dop.cpp(150,17): warning C4101: num: неиспользованная локальная переменная
+  dop.vcxproj -> D:\LABS\OAIP 2\3\1\Debug\dop.exe

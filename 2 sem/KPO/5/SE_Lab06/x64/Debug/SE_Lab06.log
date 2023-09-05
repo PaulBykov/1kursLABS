@@ -1,0 +1,4 @@
+﻿  main.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+D:\LABS\KPO\5\SE_Lab06S\x64\Debug\SE_Lab06.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6006: "link.exe" завершилась с кодом 1120.

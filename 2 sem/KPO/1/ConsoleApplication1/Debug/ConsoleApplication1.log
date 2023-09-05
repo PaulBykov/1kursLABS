@@ -1,0 +1,6 @@
+﻿cl : командная строка warning D9025: переопределение "/Ycstdafx.h" на "/Yc"
+  stdafx.cpp
+  ConsoleApplication1.cpp
+  Leap.cpp
+  Num.cpp
+  ConsoleApplication1.vcxproj -> D:\LABS\KPO\1\ConsoleApplication1\Debug\YEAR_INFO.exe
